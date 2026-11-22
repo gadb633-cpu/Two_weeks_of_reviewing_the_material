@@ -26,5 +26,6 @@
 price_product = int(input("enter price product: "))
 percent = int(input("enter percent: "))
 print(f'''
-price percent:
+price percent: {(price_product * percent)/100}
+finaly price: {price_product - ((price_product * percent)/100)}
 ''')
