@@ -104,10 +104,37 @@
 # print(f"total price is : {total_price+price_tip}")
 # print(f"total price for each: {(total_price+price_tip)/num_of_clients}")
 
-# exe_12
-a= 10
-b=20
-c = a
-a=b
-b=c
-print(a,b)
+# # exe_12
+# a= 10
+# b=20
+# c = a
+# a=b
+# b=c
+# print(a,b)
+
+# exe_13
+first_name = input("enter first name: ")
+last_name = input("enter last name: ")
+age = int(input("enter age: "))
+name_university = input("enter name university: ")
+course_name = input("enter course name: ")
+num_month = int(input("enter num month: "))
+price_month = int(input("enter price month: "))
+print(f'''
+    ================================
+        STUDENT REGISTRATION
+    ================================
+
+    Student: {first_name} {last_name}
+    Age: {age}
+    Institution: {name_university}
+    Course: {course_name}
+    Duration: {num_month}
+    Monthly Price: {price_month}
+
+    Total Course Price: {num_month * price_month}
+
+    ================================
+    Registration completed!
+    ================================
+''')
