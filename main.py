@@ -56,16 +56,29 @@
 # City: {city}
 # ''')
 
-# exe_6
-num1 = int(input("enter num1: "))
-num2 = int(input("enter num2: "))
-add = num1 + num2
-sub = num1 - num2
-multy = num1 * num2
-divide = num1 / num2
-print(f"""
-add: {add}
-sub: {sub}
-multy : {multy}
-divide: {divide}
-""")
+# # exe_6
+# num1 = int(input("enter num1: "))
+# num2 = int(input("enter num2: "))
+# add = num1 + num2
+# sub = num1 - num2
+# multy = num1 * num2
+# divide = num1 / num2
+# print(f"""
+# add: {add}
+# sub: {sub}
+# multy : {multy}
+# divide: {divide}
+# """)
+
+# exe_7
+name_product = input("enter name_product: ")
+price_product = int(input("enter price_product: "))
+Quantity = int(input("enter Quantity: "))
+print(f'''
+====== Purchase Receipt ======
+Product: {name_product}
+Price: {price_product}
+Quantity: {Quantity}
+Total: {Quantity * price_product}
+==============================
+''')
