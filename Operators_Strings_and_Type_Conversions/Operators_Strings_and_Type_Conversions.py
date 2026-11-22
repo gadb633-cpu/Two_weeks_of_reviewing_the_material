@@ -138,15 +138,22 @@
 #     len_full_name: {len_full_name}
 # ''')
 
-# exe_16
-usd_rate = 3.25
-price = float(input("enter price: "))
-usd_price = price * usd_rate
-Euro = price * 3.75
-price_with_commission = price + (price *0.2)
+# # exe_16
+# usd_rate = 3.25
+# price = float(input("enter price: "))
+# usd_price = price * usd_rate
+# Euro = price * 3.75
+# price_with_commission = price + (price *0.2)
 
-print(f"""
-    usd_price: {usd_price}
-    Euro: {Euro}
-    price_with_commission: {price_with_commission}
-""")
+# print(f"""
+#     usd_price: {usd_price}
+#     Euro: {Euro}
+#     price_with_commission: {price_with_commission}
+# """)
+
+# exe_17
+first_name = input("enter first name: ")
+last_name = input("enter last name: ")
+year_birded = int(input("enter your year_birded: "))
+email = f"{first_name}.{last_name}.{year_birded}@gmail.com"
+print(email)
