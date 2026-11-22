@@ -55,3 +55,9 @@ Last Name: {last_name}
 Age: {age}
 City: {city}
 ''')
+
+# exe_6
+num1 = int(input("enter num1: "))
+num2 = int(input("enter num2: "))
+operator = input("enter operator: ")
+print(num1 , operator , num2)
