@@ -105,8 +105,13 @@
 # {type(d)}
 # """)
 
-# exe_13
-age = input("Enter your age: ")
-# לא תקין להוסיף int ל str 
-age = int(age)
-print(age +10)
+# # exe_13
+# age = input("Enter your age: ")
+# # לא תקין להוסיף int ל str 
+# age = int(age)
+# print(age +10)
+
+# exe_14
+Price_excluding_VAT = float(input("enter Price_excluding_VAT: "))
+total_price = Price_excluding_VAT + (Price_excluding_VAT*0.18)
+print(total_price)
