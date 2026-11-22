@@ -95,11 +95,19 @@
 # total_price: {num_hours_per_month * price_per_hour}
 # ''')
 
-# exe_10
-total_price = int(input("enter total price: "))
-percent_tip = int(input("enter percent_tip: "))
-num_of_clients = int(input("enter num_of_clients: "))
-price_tip = (total_price * percent_tip)/100
-print(f"tip: {price_tip}")
-print(f"total price is : {total_price+price_tip}")
-print(f"total price for each: {(total_price+price_tip)/num_of_clients}")
+# # exe_10
+# total_price = int(input("enter total price: "))
+# percent_tip = int(input("enter percent_tip: "))
+# num_of_clients = int(input("enter num_of_clients: "))
+# price_tip = (total_price * percent_tip)/100
+# print(f"tip: {price_tip}")
+# print(f"total price is : {total_price+price_tip}")
+# print(f"total price for each: {(total_price+price_tip)/num_of_clients}")
+
+# exe_12
+a= 10
+b=20
+c = a
+a=b
+b=c
+print(a,b)
