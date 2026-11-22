@@ -51,9 +51,16 @@
 # print(f"Hello, my name is {first_name} {last_name} and I live in {city}.")
 # print("Hello, my name is" + first_name +" "+ last_name + "and I live in" + city)
 
-# exe_7
-name = input("enter your name: ")
-print(name)
-print(len(name))
-print(name.lower())
-print(name.upper())
+# # exe_7
+# name = input("enter your name: ")
+# print(name)
+# print(len(name))
+# print(name.lower())
+# print(name.upper())
+
+# exe_8
+sentence = input("enter sentence: ")
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.capitalize())
+print(sentence.title())
