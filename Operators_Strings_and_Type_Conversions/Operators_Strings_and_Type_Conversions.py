@@ -22,10 +22,18 @@
 # balance/=4
 # print(balance)
 
-# exe_3
-price_product = int(input("enter price product: "))
-percent = int(input("enter percent: "))
+# # exe_3
+# price_product = int(input("enter price product: "))
+# percent = int(input("enter percent: "))
+# print(f'''
+# price percent: {(price_product * percent)/100}
+# finally price: {price_product - ((price_product * percent)/100)}
+# ''')
+
+# exe_4
+price = int(input("enter price: "))
+Interest = int(input("enter Interest: "))
 print(f'''
-price percent: {(price_product * percent)/100}
-finaly price: {price_product - ((price_product * percent)/100)}
-''')
+price Interest: {(price * Interest)/100}
+finally price: {price + ((price * Interest)/100)}
+ ''')
