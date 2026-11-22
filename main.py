@@ -83,14 +83,15 @@
 # ==============================
 # ''')
 
-# exe_9
-name = input("enter your name: ")
-num_hours_per_month = int(input("enter num hours: "))
-price_per_hour = int(input("enter price_per_hour: "))
-print(f'''
-=======result=======
-hi {name}
-num hours is: {num_hours_per_month}
-price_per_hour is: {price_per_hour}
-total_price: {num_hours_per_month * price_per_hour}
-''')
+# # exe_9
+# name = input("enter your name: ")
+# num_hours_per_month = int(input("enter num hours: "))
+# price_per_hour = int(input("enter price_per_hour: "))
+# print(f'''
+# =======result=======
+# hi {name}
+# num hours is: {num_hours_per_month}
+# price_per_hour is: {price_per_hour}
+# total_price: {num_hours_per_month * price_per_hour}
+# ''')
+
