@@ -111,7 +111,29 @@
 # age = int(age)
 # print(age +10)
 
-# exe_14
-Price_excluding_VAT = float(input("enter Price_excluding_VAT: "))
-total_price = Price_excluding_VAT + (Price_excluding_VAT*0.18)
-print(total_price)
+# # exe_14
+# Price_excluding_VAT = float(input("enter Price_excluding_VAT: "))
+# total_price = Price_excluding_VAT + (Price_excluding_VAT*0.18)
+# print(total_price)
+
+# exe_15
+first_name = input("enter first name: ")
+last_name = input("enter last name: ")
+age = int(input("enter your age: "))
+salary = float(input("enter your salary: "))
+num_of_years = int(input("enter num_of_years: "))
+print(f"""
+    =======result=======
+    name: {first_name} {last_name}
+    age: {age}
+    salary: {salary}
+    num of years: {num_of_years}
+    """)
+years_salary = salary *12
+salary_with_bonus = salary + (salary *0.5)
+len_full_name = len(first_name + last_name)
+print(f'''
+    years_salary: {years_salary}
+    salary_with_bonus: {salary_with_bonus}
+    len_full_name: {len_full_name}
+''')
