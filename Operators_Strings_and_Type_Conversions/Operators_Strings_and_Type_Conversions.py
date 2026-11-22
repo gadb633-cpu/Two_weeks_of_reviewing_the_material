@@ -80,11 +80,27 @@
 # print(new_sentence.startswith("I"))
 # print(new_sentence.endswith("programming"))
 
-# exe_11
-word = "Programming"
-print(word[0])
-print(word[-1])
-print(word[2:3])
-print(word[:3])
-print(word[-4:])
-print(word[::-1])
+# # exe_11
+# word = "Programming"
+# print(word[0])
+# print(word[-1])
+# print(word[2:3])
+# print(word[:3])
+# print(word[-4:])
+# print(word[::-1])
+
+# exe_12
+a = "100"
+b = "25"
+c = 10
+d = 5.5
+a = int(a)
+b = float(b)
+c = str(c)
+d = int(d)
+print(f"""
+{type(a)}
+{type(b)}
+{type(c)}
+{type(d)}
+""")
