@@ -158,12 +158,44 @@
 # email = f"{first_name.lower()}.{last_name.lower()}.{year_birded}@gmail.com"
 # print(email)
 
-# exe_18
-sentence = input("enter sentence: ")
-print(sentence)
-print(len(sentence))
-print(sentence.upper())
-print(sentence.lower())
-print(sentence[::-1])
-print(sentence.count("a"))
-print(sentence.replace(" ","-"))
+# # exe_18
+# sentence = input("enter sentence: ")
+# print(sentence)
+# print(len(sentence))
+# print(sentence.upper())
+# print(sentence.lower())
+# print(sentence[::-1])
+# print(sentence.count("a"))
+# print(sentence.replace(" ","-"))
+
+# exe_last
+name = input("enter name: ")
+product_name = input("enter product name: ")
+price_product = float(input("enter price_product: "))
+quantity = int(input("enter quantity: "))
+discount = float(input("enter discount: "))
+vat = float(input("enter vat: "))
+print(f'''
+================================
+          PURCHASE INVOICE
+================================
+
+Customer: {name}
+Product: {product_name}
+
+Unit Price: {price_product}
+Quantity: {quantity}
+
+Subtotal: {price_product * quantity}
+Discount: {discount}
+After Discount: {price_product * quantity - ((price_product * quantity * discount)/100)}
+
+VAT: {vat}%
+VAT Amount: {((price_product * quantity - ((price_product * quantity * discount)/100))*vat)/100}
+
+TOTAL: {(price_product * quantity - ((price_product * quantity * discount)/100))+(((price_product * quantity - ((price_product * quantity * discount)/100))*vat)/100)}
+
+================================
+       THANK YOU FOR SHOPPING
+================================
+''')
