@@ -151,9 +151,19 @@
 #     price_with_commission: {price_with_commission}
 # """)
 
-# exe_17
-first_name = input("enter first name: ")
-last_name = input("enter last name: ")
-year_birded = int(input("enter your year_birded: "))
-email = f"{first_name}.{last_name}.{year_birded}@gmail.com"
-print(email)
+# # exe_17
+# first_name = input("enter first name: ")
+# last_name = input("enter last name: ")
+# year_birded = int(input("enter your year_birded: "))
+# email = f"{first_name.lower()}.{last_name.lower()}.{year_birded}@gmail.com"
+# print(email)
+
+# exe_18
+sentence = input("enter sentence: ")
+print(sentence)
+print(len(sentence))
+print(sentence.upper())
+print(sentence.lower())
+print(sentence[::-1])
+print(sentence.count("a"))
+print(sentence.replace(" ","-"))
