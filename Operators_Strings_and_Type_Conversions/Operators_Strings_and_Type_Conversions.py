@@ -71,3 +71,11 @@
 # print(len(name))
 # print(name.strip())
 # print(len(name.strip()))
+
+# exe_10
+sentence = "I love Java programming"
+new_sentence = sentence.replace("Java","python")
+print(new_sentence)
+print(new_sentence.count("love"))
+print(new_sentence.startswith("I"))
+print(new_sentence.endswith("programming"))
