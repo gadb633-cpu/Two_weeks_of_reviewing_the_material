@@ -38,8 +38,16 @@
 # finally price: {price + ((price * Interest)/100)}
 #  ''')
 
-# exe_5
-grades1 = float(input("enter grades1: "))
-grades2 = float(input("enter grades2: "))
-grades3 = float(input("enter grades3: "))
-print(f"avg: {(grades1 + grades2 +grades3) /3:.2f}")
+# # exe_5
+# grades1 = float(input("enter grades1: "))
+# grades2 = float(input("enter grades2: "))
+# grades3 = float(input("enter grades3: "))
+# print(f"avg: {(grades1 + grades2 +grades3) /3:.2f}")
+
+# exe_6
+first_name = "David"
+last_name = "Cohen"
+city = "Tel Aviv"
+print(f"Hello, my name is {first_name} {last_name} and I live in {city}.")
+print("Hello, my name is" + first_name +" "+ last_name + "and I live in" + city)
+
