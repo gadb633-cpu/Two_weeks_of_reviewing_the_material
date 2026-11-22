@@ -89,18 +89,24 @@
 # print(word[-4:])
 # print(word[::-1])
 
-# exe_12
-a = "100"
-b = "25"
-c = 10
-d = 5.5
-a = int(a)
-b = float(b)
-c = str(c)
-d = int(d)
-print(f"""
-{type(a)}
-{type(b)}
-{type(c)}
-{type(d)}
-""")
+# # exe_12
+# a = "100"
+# b = "25"
+# c = 10
+# d = 5.5
+# a = int(a)
+# b = float(b)
+# c = str(c)
+# d = int(d)
+# print(f"""
+# {type(a)}
+# {type(b)}
+# {type(c)}
+# {type(d)}
+# """)
+
+# exe_13
+age = input("Enter your age: ")
+# לא תקין להוסיף int ל str 
+age = int(age)
+print(age +10)
