@@ -11,13 +11,20 @@
 # holding: {num1 ** num2}
 # ''')
 
-# exe_2
-balance = 1000
-balance +=250
-print(balance)
-balance -=100
-print(balance)
-balance *=2
-print(balance)
-balance/=4
-print(balance)
+# # exe_2
+# balance = 1000
+# balance +=250
+# print(balance)
+# balance -=100
+# print(balance)
+# balance *=2
+# print(balance)
+# balance/=4
+# print(balance)
+
+# exe_3
+price_product = int(input("enter price product: "))
+percent = int(input("enter percent: "))
+print(f'''
+price percent:
+''')
