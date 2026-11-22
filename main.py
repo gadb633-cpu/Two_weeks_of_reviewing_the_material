@@ -70,15 +70,27 @@
 # divide: {divide}
 # """)
 
-# exe_7
-name_product = input("enter name_product: ")
-price_product = int(input("enter price_product: "))
-Quantity = int(input("enter Quantity: "))
+# # exe_7
+# name_product = input("enter name_product: ")
+# price_product = int(input("enter price_product: "))
+# Quantity = int(input("enter Quantity: "))
+# print(f'''
+# ====== Purchase Receipt ======
+# Product: {name_product}
+# Price: {price_product}
+# Quantity: {Quantity}
+# Total: {Quantity * price_product}
+# ==============================
+# ''')
+
+# exe_9
+name = input("enter your name: ")
+num_hours_per_month = int(input("enter num hours: "))
+price_per_hour = int(input("enter price_per_hour: "))
 print(f'''
-====== Purchase Receipt ======
-Product: {name_product}
-Price: {price_product}
-Quantity: {Quantity}
-Total: {Quantity * price_product}
-==============================
+=======result=======
+hi {name}
+num hours is: {num_hours_per_month}
+price_per_hour is: {price_per_hour}
+total_price: {num_hours_per_month * price_per_hour}
 ''')
