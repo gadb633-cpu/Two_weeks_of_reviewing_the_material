@@ -58,9 +58,16 @@
 # print(name.lower())
 # print(name.upper())
 
-# exe_8
-sentence = input("enter sentence: ")
-print(sentence.upper())
-print(sentence.lower())
-print(sentence.capitalize())
-print(sentence.title())
+# # exe_8
+# sentence = input("enter sentence: ")
+# print(sentence.upper())
+# print(sentence.lower())
+# print(sentence.capitalize())
+# print(sentence.title())
+
+# # exe_9
+# name = input("enter name: ")
+# print(name)
+# print(len(name))
+# print(name.strip())
+# print(len(name.strip()))
