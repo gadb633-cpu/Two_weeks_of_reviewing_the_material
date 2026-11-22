@@ -30,10 +30,16 @@
 # finally price: {price_product - ((price_product * percent)/100)}
 # ''')
 
-# exe_4
-price = int(input("enter price: "))
-Interest = int(input("enter Interest: "))
-print(f'''
-price Interest: {(price * Interest)/100}
-finally price: {price + ((price * Interest)/100)}
- ''')
+# # exe_4
+# price = int(input("enter price: "))
+# Interest = int(input("enter Interest: "))
+# print(f'''
+# price Interest: {(price * Interest)/100}
+# finally price: {price + ((price * Interest)/100)}
+#  ''')
+
+# exe_5
+grades1 = float(input("enter grades1: "))
+grades2 = float(input("enter grades2: "))
+grades3 = float(input("enter grades3: "))
+print(f"avg: {(grades1 + grades2 +grades3) /3:.2f}")
