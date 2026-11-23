@@ -98,12 +98,28 @@
 #     num //= 10
 # print(count)    
 
-# exe_13
+# # exe_13
+# num1 = int(input("enter num: "))
+# count = 0
+# while num1 > 0:
+#     num2 = num1 % 10
+#     num1 //=10
+#     count *=10
+#     count +=num2
+# print(count)  
+
+# exe_14
 num1 = int(input("enter num: "))
-count = 0
-while num1 > 0:
-    num2 = num1 % 10
-    num1 //=10
-    count *=10
-    count +=num2
-print(count)    
+status = True
+count =2
+while count !=10:
+    if count == num1 !=2:
+        count+=1
+        continue
+    if num1 %1==0  and num1 %num1 ==0 and num1%count!=0:
+        count+=1 
+        continue   
+    else:
+        status = False
+        break
+print(status)     
