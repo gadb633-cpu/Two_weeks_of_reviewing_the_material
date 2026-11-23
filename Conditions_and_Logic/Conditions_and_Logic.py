@@ -64,3 +64,15 @@
 #     print("Failed")            
 # else:
 #     print("Invalid Grade")    
+
+# exe_8
+correct_username = "admin"
+correct_password = "123456"
+info = input("enter username and password: ")
+username,password = info.strip(" ")
+if username == correct_username and password == correct_password:
+    print("Login Successful")
+elif username == correct_username and password != correct_password:
+    print("Wrong Password") 
+elif username != correct_username:
+    print("Unknown User")   
