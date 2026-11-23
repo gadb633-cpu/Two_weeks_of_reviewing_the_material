@@ -108,18 +108,49 @@
 #     count +=num2
 # print(count)  
 
-# exe_14
-num1 = int(input("enter num: "))
-status = True
-count =2
-while count !=10:
-    if count == num1 !=2:
-        count+=1
-        continue
-    if num1 %1==0  and num1 %num1 ==0 and num1%count!=0:
-        count+=1 
-        continue   
-    else:
-        status = False
-        break
-print(status)     
+# # exe_14
+# num1 = int(input("enter num: "))
+# status = True
+# count =2
+# while count !=10:
+#     if count == num1 !=2:
+#         count+=1
+#         continue
+#     if num1 %1==0  and num1 %num1 ==0 and num1%count!=0:
+#         count+=1 
+#         continue   
+#     else:
+#         status = False
+#         break
+# print(status)     
+
+# exe_15
+balance = 5000
+while True:
+    print("""
+    1. check balance
+    2. deposit
+    3. attract
+    4. exit
+    """)
+    num = input("enter choice: ")
+    match num:
+        case "1":
+            print(balance)
+        case "2":
+            amount = int(input("enter amount: "))
+            if amount <=0:
+                print("only positive")
+                continue
+            balance +=amount
+        case "3":
+            amount = int(input("enter amount: "))
+            if amount <=0:
+                print("only positive")
+                continue
+            if amount > balance:
+                print("its bigger")  
+                continue
+            balance -= amount
+        case "4":
+            break      
