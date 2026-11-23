@@ -116,3 +116,13 @@
 # print(numbers[-3:])
 # print(numbers[2:7])
 # print(numbers[::-1])
+
+# # exe 16
+# students = ["yossi", "gad", "chaim", "David", "moishi", "shlomo", "rivka", "avraham", "Sarah", "Moshe"]
+# print("even")
+# for i in range(0, len(students), 2):
+#     print(students[i])
+# print("odd")
+# for i in range(1, len(students), 2):
+#     print(students[i])
+# print(students[::-2])
