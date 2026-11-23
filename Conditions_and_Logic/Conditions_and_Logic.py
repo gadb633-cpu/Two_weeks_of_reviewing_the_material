@@ -172,3 +172,19 @@
 #         print(price)
 #     else:
 #         print(50)                
+
+# # exe_17
+# Seniority = int(input("enter your Seniority [month]: "))
+# age = int(input("enter your age: "))
+# salary = float(input("enter salary: "))
+# if age >21:
+#     if salary >=7000:
+#         if Seniority >=12:
+#             print("entitled")
+#         else:
+#             print("not enough Seniority")
+#     else:
+#         print("not enough salary")
+# else:
+#     print("not enough age")        
+
