@@ -222,3 +222,15 @@
 # print(list_1_2[:5])
 # print(list_1_2[-5:])
 # print(list_1_2[::-1])
+
+# # exe 28
+# numbers = [1, 2, 3, 4, 5]
+# new_number = int(input("Enter a new number: "))
+# found = False
+# for num in numbers:
+#     if num == new_number:
+#         found = True
+#         break
+# if not found:
+#     numbers.append(new_number)
+# print(numbers)
