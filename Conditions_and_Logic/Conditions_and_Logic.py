@@ -188,35 +188,56 @@
 # else:
 #     print("not enough age")        
 
-# exe_18
-Vehicle_Type = input("enter Vehicle_Type[motorcycle,car,Commercial vehicle]: ")
-hours = int(input("enter hours to parking [minutes]: "))
-if Vehicle_Type.lower() == "motorcycle":
-    if hours <=60:
-        price = 10 - (10*0.1)
-        print(price*(hours/60))
-    elif hours > 300:
-        price = 10 - (10*0.15)
-        print(price*(hours/60))
-    else:
-        print(10*(hours/60))
-elif Vehicle_Type.lower() == "car":   
-    if hours <=60:
-        price = 20 - (20*0.1)
-        print(price*(hours/60))
-    elif hours > 300:
-        price = 20 - (20*0.15)
-        print(price*(hours/60))
-    else:
-        print(20*(hours/60))
-elif Vehicle_Type.lower() == "Commercial vehicle":   
-    if hours <=60:
-        price = 30 - (30*0.1)
-        print(price*(hours/60))
-    elif hours > 300:
-        price = 30 - (30*0.15)
-        print(price*(hours/60))
-    else:
-        print(30*(hours/60))        
-else:
-    print("not found!")
+# # exe_18
+# Vehicle_Type = input("enter Vehicle_Type[motorcycle,car,Commercial vehicle]: ")
+# hours = int(input("enter hours to parking [minutes]: "))
+# if Vehicle_Type.lower() == "motorcycle":
+#     if hours <=60:
+#         price = 10 - (10*0.1)
+#         print(price*(hours/60))
+#     elif hours > 300:
+#         price = 10 - (10*0.15)
+#         print(price*(hours/60))
+#     else:
+#         print(10*(hours/60))
+# elif Vehicle_Type.lower() == "car":   
+#     if hours <=60:
+#         price = 20 - (20*0.1)
+#         print(price*(hours/60))
+#     elif hours > 300:
+#         price = 20 - (20*0.15)
+#         print(price*(hours/60))
+#     else:
+#         print(20*(hours/60))
+# elif Vehicle_Type.lower() == "Commercial vehicle":   
+#     if hours <=60:
+#         price = 30 - (30*0.1)
+#         print(price*(hours/60))
+#     elif hours > 300:
+#         price = 30 - (30*0.15)
+#         print(price*(hours/60))
+#     else:
+#         print(30*(hours/60))        
+# else:
+#     print("not found!")
+
+# exe_19
+info = input("enter num1 num2 operator: ")
+num1,num2,operator = info.split(" ")
+match operator:
+    case "+":
+        add = int(num1) + int(num2)
+        print(add)
+    case "-":
+        sub =  int(num1) -int(num2)   
+        print(sub)
+    case "*":
+        multy = int(num1) * int(num2)  
+        print(multy)
+    case "/":
+        if num2 == 0:
+            print("not divide by zero!")
+        else:    
+            divide = int(num1) / int(num2)
+    case _:
+        print("not found!")           
