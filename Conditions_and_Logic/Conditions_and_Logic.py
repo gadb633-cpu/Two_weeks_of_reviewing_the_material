@@ -263,3 +263,29 @@
 #     print((hours_work*50) + (100 + (100*0.25)))      
 # else:
 #     print((hours_work*50)+(100 + (100*0.25))+((hours_work - 184)*75))
+
+# exe_last
+age = int(input("enter age: "))
+total_price = int(input("enter total price: "))
+club = bool(input("enter [true or false] you have club? "))
+is_product_open = bool(input("enter [true or false] product open? "))
+is_exist_Purchase_Invoice = bool(input("enter [true or false] is_exist_Purchase_Invoice? "))
+data_buying = input("enter data_buying[days before]: ")
+
+
+if is_exist_Purchase_Invoice == True:
+    if is_product_open == False:
+        if total_price >0:
+            if club == True:
+                print("entitled")
+            else:
+                if data_buying <=14:
+                    print("entitled")
+                else:
+                    print("not entitled,not have club")
+        else:
+            print("not entitled , not positive")
+    else:
+        print("not entitled , product open!")
+else:
+    print("not entitled , not exist_Purchase_Invoice")
