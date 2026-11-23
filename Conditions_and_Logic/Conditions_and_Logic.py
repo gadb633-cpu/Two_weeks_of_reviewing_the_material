@@ -188,3 +188,35 @@
 # else:
 #     print("not enough age")        
 
+# exe_18
+Vehicle_Type = input("enter Vehicle_Type[motorcycle,car,Commercial vehicle]: ")
+hours = int(input("enter hours to parking [minutes]: "))
+if Vehicle_Type.lower() == "motorcycle":
+    if hours <=60:
+        price = 10 - (10*0.1)
+        print(price*(hours/60))
+    elif hours > 300:
+        price = 10 - (10*0.15)
+        print(price*(hours/60))
+    else:
+        print(10*(hours/60))
+elif Vehicle_Type.lower() == "car":   
+    if hours <=60:
+        price = 20 - (20*0.1)
+        print(price*(hours/60))
+    elif hours > 300:
+        price = 20 - (20*0.15)
+        print(price*(hours/60))
+    else:
+        print(20*(hours/60))
+elif Vehicle_Type.lower() == "Commercial vehicle":   
+    if hours <=60:
+        price = 30 - (30*0.1)
+        print(price*(hours/60))
+    elif hours > 300:
+        price = 30 - (30*0.15)
+        print(price*(hours/60))
+    else:
+        print(30*(hours/60))        
+else:
+    print("not found!")
