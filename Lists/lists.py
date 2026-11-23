@@ -132,3 +132,9 @@
 # first_10 = numbers[:10]
 # last_10 = numbers[-10:]
 # list_5_14 = numbers[5:15]
+
+# # exe 18
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# num_list = len(numbers) // 2
+# first = numbers[:num_list]
+# last = numbers[num_list:]
