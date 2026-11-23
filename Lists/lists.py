@@ -199,3 +199,17 @@
 # even_numbers = [num for num in numbers if num % 2 == 0]
 # odd_numbers = [num for num in numbers if num % 2 != 0]
 # large_numbers = [num for num in numbers if num > 20]
+
+# # exe 26
+# numbers = [15, 22, 8, 33, 45, 12, 7, 66, 9, 50]
+# search_num = int(input("Enter a number to search: "))
+# locations = []
+# count = 0
+# for i, num in enumerate(numbers):
+#     if num == search_num:
+#         locations.append(i)
+#         count += 1
+# if count > 0:
+#     print(count,locations)
+# else:
+#     print("not found")
