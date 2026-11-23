@@ -21,12 +21,20 @@
 # else:
 #     print("odd")    
 
-# exe_4
-nums = input("enter two nums: ")
-num1,num2 = nums.split(" ")
-if num1 > num2:
-    print(num1)
-elif num1<num2:
-    print(num2)
+# # exe_4
+# nums = input("enter two nums: ")
+# num1,num2 = nums.split(" ")
+# if num1 > num2:
+#     print(num1)
+# elif num1<num2:
+#     print(num2)
+# else:
+#     print("draw")        
+
+# exe_5
+password = "Python123"
+new_password = input("enter password: ")
+if new_password.strip().lower() == password.lower():
+    print("Access Granted")
 else:
-    print("draw")        
+    print("Access Denied")    
