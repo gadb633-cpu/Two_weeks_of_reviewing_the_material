@@ -213,3 +213,12 @@
 #     print(count,locations)
 # else:
 #     print("not found")
+
+# # exe 27
+# numbers1 = [1, 2, 3, 4, 5]
+# numbers2 = [6, 7, 8, 9, 10]
+# list_1_2 = numbers1 + numbers2
+# print(list_1_2)
+# print(list_1_2[:5])
+# print(list_1_2[-5:])
+# print(list_1_2[::-1])
