@@ -11,3 +11,9 @@
 #     count -=1
 # print("START!")  
 
+# exe_3
+count = 1
+while count in range(1,51):
+    if count %2==0:
+        print(count)
+    count +=1
