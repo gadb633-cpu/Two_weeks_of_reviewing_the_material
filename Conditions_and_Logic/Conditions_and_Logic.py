@@ -139,15 +139,36 @@
 # if not num > 80 and not num < 20:
 #     print("in range")
 
-#  exe _15
-balance = 5000
-num = int(input("enter num to withdraw:" ))
-if num >0:
-    if not num > balance:
-        balance = balance-num
-        print(balance)
-    else:
-        print("you cant to withdraw!")
-else:
-    print("is not positive!!")
-                
+# #  exe _15
+# balance = 5000
+# num = int(input("enter num to withdraw:" ))
+# if num >0:
+#     if not num > balance:
+#         balance = balance-num
+#         print(balance)
+#     else:
+#         print("you cant to withdraw!")
+# else:
+#     print("is not positive!!")
+
+# # exe_16
+# age = int(input("enter your age: "))
+# club = bool(input("enter [true or false] you have club? "))
+# if age <12:
+#     if club == True:
+#         price = 25 - (25*0.1)
+#         print(price)
+#     else:
+#         print(25)
+# elif age >=12 and age <18:
+#     if club == True:
+#         price = 35 - (35*0.1)
+#         print(price)
+#     else:
+#         print(35)   
+# else:
+#     if club == True:
+#         price = 50 - (50*0.1)
+#         print(price)
+#     else:
+#         print(50)                
