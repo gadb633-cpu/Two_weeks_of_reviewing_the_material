@@ -218,8 +218,14 @@
 #         print("*",end="")
 #     print("")    
 
-# exe_26
-for i in range(7):
-    for i in range(i):
-        print("*",end="")
-    print("")
+# # exe_26
+# for i in range(7):
+#     for i in range(i):
+#         print("*",end="")
+#     print("")
+
+# # exe_27
+# for i in range(1,11):
+#     for x in range(1,11):
+#         print(x*i,end="")
+#     print("")
