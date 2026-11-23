@@ -24,3 +24,11 @@
 # while count !=5:
 #     print(num * count)
 #     count +=1
+
+# # exe_5
+# sum_nums = 0
+# count = 1
+# while count !=101:
+#     sum_nums +=count
+#     count +=1
+# print(sum_nums)    
