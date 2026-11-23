@@ -109,4 +109,16 @@
 #     if with_old == True:
 #         print("allowed")
 #     else:
-#         print("not allowed!")    
+#         print("not allowed!") 
+ 
+# # exe_12
+# avg_grades = float(input("enter avg grades: "))
+# salary = float(input("enter salary: "))
+# if avg_grades > 90:
+#     print("entitled")
+# elif avg_grades < 90 and salary <5000:
+#     print("entitled")
+# else:
+#     print("not entitled")
+
+# 
