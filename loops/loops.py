@@ -227,10 +227,37 @@
 # # exe_27
 # for i in range(1,11):
 #     for x in range(1,11):
-#         print(x*i,end="")
+#         print(x*i,end=" ")
 #     print("")
 
-# exe_28
-for i in range(1,6):
-    for x in range(1,6):
-        print(x,i)
+# # exe_28
+# for i in range(1,6):
+#     for x in range(1,6):
+#         print(x,i)
+
+# exe_last
+while True:
+    print("""
+    ===== MATH GAME =====
+    
+    1. Start Game
+    2. View Instructions
+    3. Exit
+    """)
+    choice = input("Choose: ")
+    if choice == "1":
+        score = 0
+        for i in range(10):
+            answer = int(input(f"What is {i} + {i}? "))
+            if answer == i + i:
+                score += 1
+                print("Correct")
+            else:
+                print("Incorrect")
+        print(f"result: {score}/10")
+    elif choice == "2":
+        print("Answer the math questions")
+    elif choice == "3":
+        break
+    else:
+        print("Invalid choice,try again.")
