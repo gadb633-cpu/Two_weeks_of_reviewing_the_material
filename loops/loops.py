@@ -81,12 +81,20 @@
 #     sum_num +=num
 #     count +=1
 
-# exe_11 
-num = int(input("enter num: "))
-count = 1
-while True:
-    if count > 10:
-        break
-    print(num *count)
-    count +=1
+# # exe_11 
+# num = int(input("enter num: "))
+# count = 1
+# while True:
+#     if count > 10:
+#         break
+#     print(num *count)
+#     count +=1
+
+# # exe_12
+# num = int(input("enter num: "))
+# count = 0
+# while num > 0:
+#     count +=1
+#     num //= 10
+# print(count)    
 
