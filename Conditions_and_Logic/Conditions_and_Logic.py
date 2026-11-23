@@ -39,13 +39,28 @@
 # else:
 #     print("Access Denied")    
 
-# exe_6
-num = int(input("enter num:" ))
-if num in range(1,11):
-    print("between 1-10")
-elif num in range(11,51):
-    print("between 11-50")
-elif num in range(51,100):
-    print("between 51-100")
-else:
-    print("out of range!!")       
+# # exe_6
+# num = int(input("enter num:" ))
+# if num in range(1,11):
+#     print("between 1-10")
+# elif num in range(11,51):
+#     print("between 11-50")
+# elif num in range(51,100):
+#     print("between 51-100")
+# else:
+#     print("out of range!!")       
+
+# # exe_7
+# grade = int(input("enter grade [0-100]: "))
+# if grade in range(90,101):
+#     print("Excellent")
+# elif grade in range(80,90):
+#     print("Very Good")    
+# elif grade in range(70,80):
+#     print("Good")
+# elif grade in range(60,70):
+#     print("Passed")
+# elif grade in range(0,60):
+#     print("Failed")            
+# else:
+#     print("Invalid Grade")    
