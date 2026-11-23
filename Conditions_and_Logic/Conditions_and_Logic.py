@@ -242,13 +242,24 @@
 #     case _:
 #         print("not found!")   
 
-# exe_20
-year = int(input("enter year: "))
-if year % 400==0:
-    print("leap year")
-elif year % 100 ==0 and year % 400 !=0:
-    print("not leap year")
-elif year % 4 ==0 and year % 100 !=0:
-    print("leap year")
-else:
-    print("not leap year")
+# # exe_20
+# year = int(input("enter year: "))
+# if year % 400==0:
+#     print("leap year")
+# elif year % 100 ==0 and year % 400 !=0:
+#     print("not leap year")
+# elif year % 4 ==0 and year % 100 !=0:
+#     print("leap year")
+# else:
+#     print("not leap year")
+
+# # exe_21
+# hours_work = int(input("enter hours work: "))
+# if hours_work <=182:
+#     print(hours_work*50)
+# elif hours_work == 183:
+#     print((hours_work*50) + (50 + (50*0.25)))
+# elif hours_work == 184:
+#     print((hours_work*50) + (100 + (100*0.25)))      
+# else:
+#     print((hours_work*50)+(100 + (100*0.25))+((hours_work - 184)*75))
