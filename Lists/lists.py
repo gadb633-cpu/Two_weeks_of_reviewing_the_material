@@ -193,3 +193,9 @@
 # else:
 #     print(f"{search_name} not found.")
 # print(names)
+
+# # exe 25
+# numbers = [15, 22, 8, 33, 45, 12, 7, 66, 9, 50]
+# even_numbers = [num for num in numbers if num % 2 == 0]
+# odd_numbers = [num for num in numbers if num % 2 != 0]
+# large_numbers = [num for num in numbers if num > 20]
