@@ -145,3 +145,9 @@
 # squared = [num ** 2 for num in numbers]
 # even_numbers = [num for num in numbers if num % 2 == 0]
 # large_numbers = [num for num in numbers if num > 5]
+
+# # exe 20
+# grades = [55, 90, 67, 100, 45, 82, 73, 30]
+# passed = [grade for grade in grades if grade > 60]
+# failed = [grade for grade in grades if grade < 60]
+# grades_add_5 = [grade + 5 for grade in grades]
