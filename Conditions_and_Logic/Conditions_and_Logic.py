@@ -221,23 +221,34 @@
 # else:
 #     print("not found!")
 
-# exe_19
-info = input("enter num1 num2 operator: ")
-num1,num2,operator = info.split(" ")
-match operator:
-    case "+":
-        add = int(num1) + int(num2)
-        print(add)
-    case "-":
-        sub =  int(num1) -int(num2)   
-        print(sub)
-    case "*":
-        multy = int(num1) * int(num2)  
-        print(multy)
-    case "/":
-        if num2 == 0:
-            print("not divide by zero!")
-        else:    
-            divide = int(num1) / int(num2)
-    case _:
-        print("not found!")           
+# # exe_19
+# info = input("enter num1 num2 operator: ")
+# num1,num2,operator = info.split(" ")
+# match operator:
+#     case "+":
+#         add = int(num1) + int(num2)
+#         print(add)
+#     case "-":
+#         sub =  int(num1) -int(num2)   
+#         print(sub)
+#     case "*":
+#         multy = int(num1) * int(num2)  
+#         print(multy)
+#     case "/":
+#         if num2 == 0:
+#             print("not divide by zero!")
+#         else:    
+#             divide = int(num1) / int(num2)
+#     case _:
+#         print("not found!")   
+
+# exe_20
+year = int(input("enter year: "))
+if year % 400==0:
+    print("leap year")
+elif year % 100 ==0 and year % 400 !=0:
+    print("not leap year")
+elif year % 4 ==0 and year % 100 !=0:
+    print("leap year")
+else:
+    print("not leap year")
