@@ -126,3 +126,9 @@
 # for i in range(1, len(students), 2):
 #     print(students[i])
 # print(students[::-2])
+
+# # exe 17
+# numbers = [1, 22, 83, 4, 5, 65, 7, 48, 9, 41, 11, 17, 13, 34, 15, 16, 17, 18, 54, 56]
+# first_10 = numbers[:10]
+# last_10 = numbers[-10:]
+# list_5_14 = numbers[5:15]
