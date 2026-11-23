@@ -139,4 +139,15 @@
 # if not num > 80 and not num < 20:
 #     print("in range")
 
-#  
+#  exe _15
+balance = 5000
+num = int(input("enter num to withdraw:" ))
+if num >0:
+    if not num > balance:
+        balance = balance-num
+        print(balance)
+    else:
+        print("you cant to withdraw!")
+else:
+    print("is not positive!!")
+                
