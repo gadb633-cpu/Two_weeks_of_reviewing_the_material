@@ -177,6 +177,11 @@
 #         print("success")
 #         break
 
-# exe_19
-for i in range(1,21):
+# # exe_19
+# for i in range(1,21):
+#     print(i)
+
+# exe_20
+for i in range(0,101,5):
     print(i)
+    
