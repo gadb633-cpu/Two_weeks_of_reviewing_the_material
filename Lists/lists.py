@@ -36,3 +36,8 @@
 #     print("Apple exists in the list")
 # if "milk" not in products:
 #     print("Milk not exist in the list")
+
+# # exe 6
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for num in numbers:
+#     print(num)
