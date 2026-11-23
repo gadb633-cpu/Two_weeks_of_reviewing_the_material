@@ -124,33 +124,39 @@
 #         break
 # print(status)     
 
-# exe_15
-balance = 5000
-while True:
-    print("""
-    1. check balance
-    2. deposit
-    3. attract
-    4. exit
-    """)
-    num = input("enter choice: ")
-    match num:
-        case "1":
-            print(balance)
-        case "2":
-            amount = int(input("enter amount: "))
-            if amount <=0:
-                print("only positive")
-                continue
-            balance +=amount
-        case "3":
-            amount = int(input("enter amount: "))
-            if amount <=0:
-                print("only positive")
-                continue
-            if amount > balance:
-                print("its bigger")  
-                continue
-            balance -= amount
-        case "4":
-            break      
+# # exe_15
+# balance = 5000
+# while True:
+#     print("""
+#     1. check balance
+#     2. deposit
+#     3. attract
+#     4. exit
+#     """)
+#     num = input("enter choice: ")
+#     match num:
+#         case "1":
+#             print(balance)
+#         case "2":
+#             amount = int(input("enter amount: "))
+#             if amount <=0:
+#                 print("only positive")
+#                 continue
+#             balance +=amount
+#         case "3":
+#             amount = int(input("enter amount: "))
+#             if amount <=0:
+#                 print("only positive")
+#                 continue
+#             if amount > balance:
+#                 print("its bigger")  
+#                 continue
+#             balance -= amount
+#         case "4":
+#             break      
+
+# exe_16
+count = 1
+while count !=16:
+    print(count)
+    count +=1
