@@ -48,3 +48,14 @@
 #     if guess_num == secret_number:
 #         print("success!")
 #         break
+
+# exe_8
+sum_num = 0
+while True:
+    num = int(input("enter num: "))
+    if num <= 0:
+        print(sum_num)
+        break
+    sum_num +=num
+
+    
