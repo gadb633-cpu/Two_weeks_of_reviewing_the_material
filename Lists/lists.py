@@ -157,3 +157,7 @@
 # long_names = [name for name in names if len(name) > 4]
 # uppercase_names = [name.upper() for name in names]
 # d_names = [name for name in names if name.startswith("D")]
+
+# # exe 22
+# numbers = [12, 7, 25, 30, 9, 44, 18, 3]
+# new_list = [num for num in numbers if num % 3 == 0 and num > 10]
