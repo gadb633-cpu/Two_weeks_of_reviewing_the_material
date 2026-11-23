@@ -109,3 +109,10 @@
 # while i < len(students):
 #     print(f"Index: {i}, Name: {students[i]}")
 #     i += 1
+
+# # exe 15
+# numbers = [5, 10, 18, 20, 26, 32, 35, 43, 47, 50]
+# print(numbers[:3])
+# print(numbers[-3:])
+# print(numbers[2:7])
+# print(numbers[::-1])
