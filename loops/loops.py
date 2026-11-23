@@ -69,14 +69,24 @@
 #     sum_grades += grade
 # print(f"count grades: {count} \nsum_grades: {sum_grades} \navg: {sum_grades/count}")    
 
-# exe_10
-sum_num = 0
-count = 0 
+# # exe_10
+# sum_num = 0
+# count = 0 
+# while True:
+#     num = int(input("enter num: "))
+#     if num < 0:
+#         print(sum_num)
+#         print(count)
+#         break
+#     sum_num +=num
+#     count +=1
+
+# exe_11 
+num = int(input("enter num: "))
+count = 1
 while True:
-    num = int(input("enter num: "))
-    if num < 0:
-        print(sum_num)
-        print(count)
+    if count > 10:
         break
-    sum_num +=num
+    print(num *count)
     count +=1
+
