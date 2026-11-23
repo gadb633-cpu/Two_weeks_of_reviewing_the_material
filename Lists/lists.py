@@ -47,3 +47,10 @@
 # for num in numbers:
 #     if num % 2 == 0:
 #         print(num)
+
+# # exe 8
+# grades = [85, 90, 78, 92, 88]
+# total = 0
+# for grade in grades:
+#     total += grade
+# print(total)
