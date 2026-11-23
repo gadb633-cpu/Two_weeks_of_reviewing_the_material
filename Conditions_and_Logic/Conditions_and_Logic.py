@@ -65,14 +65,26 @@
 # else:
 #     print("Invalid Grade")    
 
-# exe_8
-correct_username = "admin"
-correct_password = "123456"
-info = input("enter username and password: ")
-username,password = info.strip(" ")
-if username == correct_username and password == correct_password:
-    print("Login Successful")
-elif username == correct_username and password != correct_password:
-    print("Wrong Password") 
-elif username != correct_username:
-    print("Unknown User")   
+# # exe_8
+# correct_username = "admin"
+# correct_password = "123456"
+# info = input("enter username and password: ")
+# username,password = info.strip(" ")
+# if username == correct_username and password == correct_password:
+#     print("Login Successful")
+# elif username == correct_username and password != correct_password:
+#     print("Wrong Password") 
+# elif username != correct_username:
+#     print("Unknown User")   
+
+# # exe_9
+# price = int(input("enter price: "))
+# age = int(input("enter age: "))
+# if age >60:
+#     price = price - (price*0.2)
+#     print(price)
+# elif age <18:
+#     price = price - (price*0.1)
+#     print(price)
+# else:
+#     print(price)
