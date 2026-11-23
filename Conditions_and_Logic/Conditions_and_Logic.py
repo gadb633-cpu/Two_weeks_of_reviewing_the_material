@@ -89,13 +89,24 @@
 # else:
 #     print(price)
 
-# exe_10
-num = int(input("enter num:" ))
-if num % 3 == 0 and num %5 !=0:
-    print(num)
-elif num % 5 == 0 and num %3!=0:
-    print(num)
-elif num % 5 == 0 and num % 3 ==0:
-    print(num)
-else:
-    print(num)
+# # exe_10
+# num = int(input("enter num:" ))
+# if num % 3 == 0 and num %5 !=0:
+#     print(num)
+# elif num % 5 == 0 and num %3!=0:
+#     print(num)
+# elif num % 5 == 0 and num % 3 ==0:
+#     print(num)
+# else:
+#     print(num)
+
+# # exe_11
+# age = int(input("enter your age: "))
+# with_old = bool(input("enter [true or false] you come with old man? "))
+# if age >=18:
+#     print("allowed")
+# else:
+#     if with_old == True:
+#         print("allowed")
+#     else:
+#         print("not allowed!")    
