@@ -62,3 +62,15 @@
 #     if num > max_number:
 #         max_number = num
 # print(max_number)
+
+# # exe 10
+# students = ["yossi", "gad", "chaim", "David", "moishi"]
+# name = input("Enter name: ")
+# found = False
+# for student in students:
+#     if student == name:
+#         print("Found")
+#         found = True
+#         break
+# if not found:
+#     print("Not Found")
