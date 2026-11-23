@@ -229,3 +229,8 @@
 #     for x in range(1,11):
 #         print(x*i,end="")
 #     print("")
+
+# exe_28
+for i in range(1,6):
+    for x in range(1,6):
+        print(x,i)
