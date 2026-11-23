@@ -161,11 +161,19 @@
 #     print(count)
 #     count +=1
 
-# exe_17
-count = 1
-while count in range(1,31):
-    if count %3==0:
-        count+=1
-        continue
-    print(count)
-    count +=1
+# # exe_17
+# count = 1
+# while count in range(1,31):
+#     if count %3==0:
+#         count+=1
+#         continue
+#     print(count)
+#     count +=1
+
+# exe_18
+while True:
+    num1 = int(input("enter num: "))
+    if num1 == 100:
+        print("success")
+        break
+
