@@ -5,10 +5,17 @@
 # print(numbers[-1])
 # print(numbers[2])
 
-# exe 2
-students = ["yossi", "gad", "chaim", "David", "moishi"]
-print(len(students))
-print(students[0])
-print(students[-1])
-students[1] = "biton"
-print(students)
+# # exe 2
+# students = ["yossi", "gad", "chaim", "David", "moishi"]
+# print(len(students))
+# print(students[0])
+# print(students[-1])
+# students[1] = "biton"
+# print(students)
+
+# exe 3
+grades = [85, 90, 78, 92, 88]
+grades.append(95)
+grades.insert(0, 80)
+grades[2] = 82
+print(grades)
