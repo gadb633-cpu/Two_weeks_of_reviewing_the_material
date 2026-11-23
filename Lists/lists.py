@@ -86,3 +86,13 @@
 #     print(indexes)
 # else:
 #     print("Number not found")
+
+# # exe 12
+# numbers = [15, 20, 32, 40, 20, 62, 70, 85, 90, 98]
+# count = 0
+# for num in numbers:
+#     if num > 50:
+#         count += 1
+# print(count)
+
+# 
