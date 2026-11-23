@@ -31,10 +31,21 @@
 # else:
 #     print("draw")        
 
-# exe_5
-password = "Python123"
-new_password = input("enter password: ")
-if new_password.strip().lower() == password.lower():
-    print("Access Granted")
+# # exe_5
+# password = "Python123"
+# new_password = input("enter password: ")
+# if new_password.strip().lower() == password.lower():
+#     print("Access Granted")
+# else:
+#     print("Access Denied")    
+
+# exe_6
+num = int(input("enter num:" ))
+if num in range(1,11):
+    print("between 1-10")
+elif num in range(11,51):
+    print("between 11-50")
+elif num in range(51,100):
+    print("between 51-100")
 else:
-    print("Access Denied")    
+    print("out of range!!")       
