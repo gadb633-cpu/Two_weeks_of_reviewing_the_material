@@ -191,7 +191,15 @@
 #     sum_num +=i
 # print(sum_num) 
 
-# exe_22
-num1 = int(input("enter num: "))
-for i in range(11):
-    print(num1*i)
+# # exe_22
+# num1 = int(input("enter num: "))
+# for i in range(11):
+#     print(num1*i)
+
+# exe_23
+count = 0
+nums = input("enter two nums: ")
+num1,num2 = nums.split(" ")
+for i in range(int(num1),int(num2)+1):
+    count +=i
+print(count)    
