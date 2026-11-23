@@ -29,3 +29,10 @@
 # print(numbers)
 # del numbers[3]
 # print(numbers)
+
+# # exe 5
+# products = ["apple", "banana", "orange", "computer", "phone"]
+# if "apple" in products:
+#     print("Apple exists in the list")
+# if "milk" not in products:
+#     print("Milk not exist in the list")
