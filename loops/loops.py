@@ -204,8 +204,16 @@
 #     count +=i
 # print(count)    
 
-# exe_24
-for i in range(101):
-    if i%3==0 and i%5==0:
-        continue
-    print(i)
+# # exe_24
+# for i in range(101):
+#     if i%3==0 and i%5==0:
+#         continue
+#     print(i)
+
+# exe_25
+row = int(input("enter num row: "))
+Colum = int(input("enter num Colum: "))
+for i in range(Colum):
+    for i in range(row):
+        print("*",end="")
+    print("")    
