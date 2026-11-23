@@ -183,3 +183,13 @@
 
 # average = sum(numbers) / len(numbers)
 # print(average)
+
+# # exe 24
+# names = ["Moshe", "David", "Dana", "Noa", "Michael", "Avi"]
+# search_name = input("Enter a name to search: ")
+# if search_name in names:
+#     names.remove(search_name)
+#     print(f"{search_name} removed.")
+# else:
+#     print(f"{search_name} not found.")
+# print(names)
