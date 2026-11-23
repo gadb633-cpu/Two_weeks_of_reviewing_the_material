@@ -20,3 +20,13 @@
 #     print("even")
 # else:
 #     print("odd")    
+
+# exe_4
+nums = input("enter two nums: ")
+num1,num2 = nums.split(" ")
+if num1 > num2:
+    print(num1)
+elif num1<num2:
+    print(num2)
+else:
+    print("draw")        
