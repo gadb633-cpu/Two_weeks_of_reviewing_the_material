@@ -170,10 +170,13 @@
 #     print(count)
 #     count +=1
 
-# exe_18
-while True:
-    num1 = int(input("enter num: "))
-    if num1 == 100:
-        print("success")
-        break
+# # exe_18
+# while True:
+#     num1 = int(input("enter num: "))
+#     if num1 == 100:
+#         print("success")
+#         break
 
+# exe_19
+for i in range(1,21):
+    print(i)
