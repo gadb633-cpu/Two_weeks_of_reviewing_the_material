@@ -181,7 +181,12 @@
 # for i in range(1,21):
 #     print(i)
 
-# exe_20
-for i in range(0,101,5):
-    print(i)
-    
+# # exe_20
+# for i in range(0,101,5):
+#     print(i)
+
+# exe_21
+sum_num = 0
+for i in range(100):
+    sum_num +=i
+print(sum_num) 
