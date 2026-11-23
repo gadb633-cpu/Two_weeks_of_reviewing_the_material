@@ -151,3 +151,9 @@
 # passed = [grade for grade in grades if grade > 60]
 # failed = [grade for grade in grades if grade < 60]
 # grades_add_5 = [grade + 5 for grade in grades]
+
+# # exe 21
+# names = ["Moshe", "David", "Dana", "Noa", "Michael", "Avi"]
+# long_names = [name for name in names if len(name) > 4]
+# uppercase_names = [name.upper() for name in names]
+# d_names = [name for name in names if name.startswith("D")]
