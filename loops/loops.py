@@ -49,13 +49,23 @@
 #         print("success!")
 #         break
 
-# exe_8
-sum_num = 0
-while True:
-    num = int(input("enter num: "))
-    if num <= 0:
-        print(sum_num)
-        break
-    sum_num +=num
+# # exe_8
+# sum_num = 0
+# while True:
+#     num = int(input("enter num: "))
+#     if num <= 0:
+#         print(sum_num)
+#         break
+#     sum_num +=num
 
-    
+# # exe_9
+# count = 0
+# sum_grades = 0
+# while True:
+#     grade = int(input("enter grade: "))
+#     if grade == 999:
+#         break
+#     count +=1
+#     sum_grades += grade
+# print(f"count grades: {count} \nsum_grades: {sum_grades} \navg: {sum_grades/count}")    
+     
