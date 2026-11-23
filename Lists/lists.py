@@ -161,3 +161,25 @@
 # # exe 22
 # numbers = [12, 7, 25, 30, 9, 44, 18, 3]
 # new_list = [num for num in numbers if num % 3 == 0 and num > 10]
+
+# # exe 23
+# numbers = []
+# for i in range(10):
+#     num = int(input("Enter a number: "))
+#     numbers.append(num)
+
+# print(numbers)
+
+# max_number = numbers[0]
+# min_number = numbers[0]
+# for num in numbers:
+#     if num > max_number:
+#         max_number = num
+#     if num < min_number:
+#         min_number = num
+
+# print(max_number)
+# print(min_number)
+
+# average = sum(numbers) / len(numbers)
+# print(average)
