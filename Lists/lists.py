@@ -102,3 +102,10 @@
 #     if num % 2 == 0:
 #         even_numbers.append(num)
 # print(even_numbers)
+
+# # exe 14
+# students = ["yossi", "gad", "chaim", "David", "moishi"]
+# i = 0
+# while i < len(students):
+#     print(f"Index: {i}, Name: {students[i]}")
+#     i += 1
