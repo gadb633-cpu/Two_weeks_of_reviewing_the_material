@@ -138,3 +138,10 @@
 # num_list = len(numbers) // 2
 # first = numbers[:num_list]
 # last = numbers[num_list:]
+
+# # exe 19
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# doubled = [num * 2 for num in numbers]
+# squared = [num ** 2 for num in numbers]
+# even_numbers = [num for num in numbers if num % 2 == 0]
+# large_numbers = [num for num in numbers if num > 5]
