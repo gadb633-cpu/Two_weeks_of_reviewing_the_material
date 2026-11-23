@@ -196,10 +196,16 @@
 # for i in range(11):
 #     print(num1*i)
 
-# exe_23
-count = 0
-nums = input("enter two nums: ")
-num1,num2 = nums.split(" ")
-for i in range(int(num1),int(num2)+1):
-    count +=i
-print(count)    
+# # exe_23
+# count = 0
+# nums = input("enter two nums: ")
+# num1,num2 = nums.split(" ")
+# for i in range(int(num1),int(num2)+1):
+#     count +=i
+# print(count)    
+
+# exe_24
+for i in range(101):
+    if i%3==0 and i%5==0:
+        continue
+    print(i)
