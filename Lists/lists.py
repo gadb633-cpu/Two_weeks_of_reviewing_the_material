@@ -74,3 +74,15 @@
 #         break
 # if not found:
 #     print("Not Found")
+
+# # exe 11
+# numbers = [10, 20, 30, 40, 20]
+# num = int(input("Enter a number: "))
+# indexes = []
+# for i in range(len(numbers)):
+#     if numbers[i] == num:
+#         indexes.append(i)
+# if indexes:
+#     print(indexes)
+# else:
+#     print("Number not found")
