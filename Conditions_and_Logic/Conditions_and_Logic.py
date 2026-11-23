@@ -88,3 +88,14 @@
 #     print(price)
 # else:
 #     print(price)
+
+# exe_10
+num = int(input("enter num:" ))
+if num % 3 == 0 and num %5 !=0:
+    print(num)
+elif num % 5 == 0 and num %3!=0:
+    print(num)
+elif num % 5 == 0 and num % 3 ==0:
+    print(num)
+else:
+    print(num)
