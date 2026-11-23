@@ -210,10 +210,16 @@
 #         continue
 #     print(i)
 
-# exe_25
-row = int(input("enter num row: "))
-Colum = int(input("enter num Colum: "))
-for i in range(Colum):
-    for i in range(row):
+# # exe_25
+# row = int(input("enter num row: "))
+# Colum = int(input("enter num Colum: "))
+# for i in range(Colum):
+#     for i in range(row):
+#         print("*",end="")
+#     print("")    
+
+# exe_26
+for i in range(7):
+    for i in range(i):
         print("*",end="")
-    print("")    
+    print("")
