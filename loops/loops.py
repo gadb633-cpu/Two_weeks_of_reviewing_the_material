@@ -33,10 +33,18 @@
 #     count +=1
 # print(sum_nums)    
 
-# exe_6
-correct_password = "Python123"
-while True:
-    password = input("enter password: ")
-    if password.lower() == correct_password.lower():
-        print("Welcome!")
-        break
+# # exe_6
+# correct_password = "Python123"
+# while True:
+#     password = input("enter password: ")
+#     if password.lower() == correct_password.lower():
+#         print("Welcome!")
+#         break
+
+# # exe_7
+# secret_number = 27
+# while True:
+#     guess_num = int(input("enter guess_num: "))
+#     if guess_num == secret_number:
+#         print("success!")
+#         break
