@@ -121,4 +121,13 @@
 # else:
 #     print("not entitled")
 
-# 
+# exe_13
+correct_username = "admin"
+correct_password = "123456"
+info = input("enter username and password: ")
+username,password = info.strip(" ")
+is_active = bool(input("enter [true or false] is active? "))
+if username == correct_username and password == correct_password and is_active ==True:
+    print("allowed")
+else:
+    print("not allowed!") 
