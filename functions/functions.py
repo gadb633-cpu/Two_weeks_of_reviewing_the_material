@@ -47,3 +47,7 @@
 #     print(age)
 # show_age(20)
 # show_age(25)
+
+# # exe 9
+# def calculate_sum(num1,num2):
+#     print(num1+num2)
