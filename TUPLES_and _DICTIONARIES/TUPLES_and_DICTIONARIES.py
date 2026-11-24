@@ -180,3 +180,20 @@
 # else:
 #     inventory[name] -= int(amount)
 #     print(inventory)
+
+# # exe 21
+# votes = {"David": 0,"Moshe": 0,"Dana": 0}
+# while True:
+#     name = input("enter name to vote: ")
+#     if name.lower().strip() =="stop":
+#         winner = "David"
+#         print(votes)
+#         for vote in votes:
+#             if votes[vote] > votes[winner]:
+#                 winner = vote
+#         print(f"winner: {winner}")        
+#         break
+#     if name not in votes:
+#         print("not exist")
+#         continue
+#     votes[name] +=1    
