@@ -18,3 +18,8 @@
 # 2. Settings
 # 3. Exit
 # ''')
+
+# # exe 4
+# def show_numbers():
+#     for i in range(11):
+#         print(i) 
