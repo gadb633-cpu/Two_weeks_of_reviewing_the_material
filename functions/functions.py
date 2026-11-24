@@ -51,3 +51,7 @@
 # # exe 9
 # def calculate_sum(num1,num2):
 #     print(num1+num2)
+
+# # exe 10
+# def calculate_average(grade1,grade2,grade3):
+#     print((grade1+grade2+grade3)/3)
