@@ -55,4 +55,10 @@
 # car["color"] = "green"
 # print(car)
 
-# exe 10
+# # exe 10
+# salaries = {"David": 12000,"Moshe": 15000,"Dana": 13500}
+# for salary in salaries:
+#     print(salaries[salary])
+# salaries["David"] = 17000
+# salaries["gad"] = 40000
+# print(salaries)    
