@@ -110,3 +110,19 @@
 #     price = int(input("enter price: "))
 #     products[name] = price
 # print(products)    
+
+# # exe 15
+# students = [    {"name": "David", "age": 20, "grade": 90},    {"name": "Moshe", "age": 22, "grade": 75},    {"name": "Dana", "age": 21, "grade": 100},    {"name": "Noa", "age": 19, "grade": 55},    {"name": "Avi", "age": 23, "grade": 82}]
+# sum_grades = 0
+# highest = students[0]
+# for s in students:
+#     sum_grades += s["grade"]
+#     print(s["name"])
+#     print(s["grade"])
+#     if s["grade"] >80:
+#         print(f"Over 80: {s["name"]}")
+#     if s["grade"] >highest["grade"]:
+#         highest = s
+# avg = sum_grades / len(students)    
+# print(f"avg: {avg}")
+# print(f"highest: {highest["name"]}")
