@@ -73,3 +73,8 @@
 #         print(products[p])
 # if not found:
 #     print("not found!!")
+
+# # exe 12
+# students = {"David": 80,"Moshe": 87,"Dana": 91,"gad":100,"chaim":95}
+# for s in students:
+#     print(f"Student: {s} | Grade: {students[s]}")
