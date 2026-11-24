@@ -43,3 +43,7 @@
 # last_products = products[-2:]
 # new_products = first_products + last_products
 # print(new_products)
+
+# # exe 8
+# student = {"name": "David","age": 22,"grade": 95,"city":"TLV"}
+# print(student["name"],student["age"],student["grade"],student["city"])
