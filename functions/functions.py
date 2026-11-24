@@ -1,6 +1,11 @@
-# exe 1
-def say_hello():
-    print("Hello world!")
-say_hello()
-say_hello()
-say_hello()
+# # exe 1
+# def say_hello():
+#     print("Hello world!")
+# say_hello()
+# say_hello()
+# say_hello()
+
+# # exe 2
+# def show_welcome():
+#     print("welcome!")
+# show_welcome()     
