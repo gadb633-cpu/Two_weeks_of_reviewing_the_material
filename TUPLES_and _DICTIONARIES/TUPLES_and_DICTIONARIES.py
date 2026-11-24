@@ -97,3 +97,16 @@
 # print(f"highest: {highest}")
 # print(f"failed: {count}")
 
+# # exe 14
+# products = {"apple": 2.5, "banana": 1.2, "orange": 3.0, "grape": 4.5}
+# name = input("enter name product: ")
+# found = False
+# for p in products:
+#     if name == p:
+#         found = True
+#         price = int(input("enter new price: "))
+#         products[p] = price
+# if not found:
+#     price = int(input("enter price: "))
+#     products[name] = price
+# print(products)    
