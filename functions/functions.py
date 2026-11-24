@@ -23,3 +23,9 @@
 # def show_numbers():
 #     for i in range(11):
 #         print(i) 
+
+# # exe 5
+# def show_even_numbers(): 
+#     for num in range(101):
+#         if num %2==0:
+#             print(num)
