@@ -197,3 +197,53 @@
 #         print("not exist")
 #         continue
 #     votes[name] +=1    
+
+# # exe 22
+# contact = {"gad":"0504114558","chaim":"0583454748","moshe":"054256987"}
+# while True:
+#     print("1. Add contact")
+#     print("2. Search contact")
+#     print("3. Update contact")
+#     print("4. Delete contact")
+#     print("5. Show all contacts")
+#     print("6. Exit")
+#     choice = input("Enter your choice: ")
+    
+#     if choice == "1":
+#         name = input("Enter name: ")
+#         phone = input("Enter phone number: ")
+#         contact[name] = phone
+#         print(f"Contact {name} added.")
+        
+#     elif choice == "2":
+#         name = input("Enter name to search: ")
+#         if name in contact:
+#             print(f"{name}: {contact[name]}")
+#         else:
+#             print("not found")
+            
+#     elif choice == "3":
+#         name = input("Enter name to update: ")
+#         if name in contact:
+#             phone = input("Enter new phone number: ")
+#             contact[name] = phone
+#             print(f"Contact {name} updated.")
+#         else:
+#             print("not found.")
+            
+#     elif choice == "4":
+#         name = input("Enter name to delete: ")
+#         if name in contact:
+#             del contact[name]
+#             print(f"Contact {name} deleted.")
+#         else:
+#             print("not found.")
+            
+#     elif choice == "5":
+#         for name, phone in contact.items():
+#             print(f"{name}: {phone}")
+            
+#     elif choice == "6":
+#         break
+#     else:
+#         print("only 1-6")
