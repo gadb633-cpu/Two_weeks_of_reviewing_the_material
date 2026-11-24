@@ -135,4 +135,14 @@
 #     if students[s]["name"] == "Moshe":
 #         students.pop(s)
 #         break
-# print(students)     
+# print(students)   
+ 
+# exe 17
+classroom = {"Class A": ["David", "Moshe", "Dana"],"Class B": ["Noa", "Avi", "Michael"],"Class C": ["Daniel", "Shir", "Yossi"]} 
+classroom["Class B"].append("gad")
+classroom["Class C"].pop(0)
+for c in classroom:
+    print(c)
+    print(classroom[c])
+    print(len(classroom[c]))
+    
