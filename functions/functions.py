@@ -36,8 +36,14 @@
 # for i in range(6):    
 #     show_stars()    
 
-# exe 7
-def greet(name):
-    print("Hello", name)
-greet("David")
-greet("Moshe")
+# # exe 7
+# def greet(name):
+#     print("Hello", name)
+# greet("David")
+# greet("Moshe")
+
+# # exe 8
+# def show_age(age):
+#     print(age)
+# show_age(20)
+# show_age(25)
