@@ -126,3 +126,13 @@
 # avg = sum_grades / len(students)    
 # print(f"avg: {avg}")
 # print(f"highest: {highest["name"]}")
+
+# # exe 16
+# students = [{"name": "David", "age": 20, "grade": 90},{"name": "Moshe", "age": 22, "grade": 75},{"name": "Dana", "age": 21, "grade": 100},{"name": "Noa", "age": 19, "grade": 55},{"name": "Avi", "age": 23, "grade": 82}]
+# students.append({"name":"gad","age":24,"grade":99})
+# students[0]["grade"] = 92
+# for s in range(len(students)):
+#     if students[s]["name"] == "Moshe":
+#         students.pop(s)
+#         break
+# print(students)     
