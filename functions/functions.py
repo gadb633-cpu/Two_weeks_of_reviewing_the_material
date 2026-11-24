@@ -61,3 +61,9 @@
 #     if num%2==0:
 #         print("even")
 #     print("odd")    
+
+# # exe 12
+# def check_password(password):
+#     if password == "123456":
+#         print("Access Granted")
+#     print("Access Denied")    
