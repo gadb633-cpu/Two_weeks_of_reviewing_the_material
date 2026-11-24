@@ -156,3 +156,16 @@
 #     if products[p]["price"] > 100:
 #         print(f"over 100: {p}")
 
+# exe 19
+employees = [("David", "Development", 15000),("Moshe", "Marketing", 12000),("Dana", "Development", 18000),("Noa", "HR", 11000)]
+highest = employees[0]
+sum_salary = 0
+for employ in employees:
+    sum_salary += employ[2]
+    print(employ[0])
+    if employ[1]=="Development":
+        print(employ)
+    if employ[2] > highest[2]:
+        highest = employ
+print(f"highest:{highest[0]}")  
+print(f"avg: {sum_salary/len(employees)}")      
