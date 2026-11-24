@@ -29,3 +29,9 @@
 #     for num in range(101):
 #         if num %2==0:
 #             print(num)
+
+# # exe 6
+# def show_stars():
+#     print("**********")
+# for i in range(6):    
+#     show_stars()    
