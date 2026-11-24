@@ -47,3 +47,12 @@
 # # exe 8
 # student = {"name": "David","age": 22,"grade": 95,"city":"TLV"}
 # print(student["name"],student["age"],student["grade"],student["city"])
+
+# # exe 9
+# car = {"brand":"tesla","model":"electric","year":2026,"price":200000}
+# car["price"] = 250000
+# car["year"] = 2027
+# car["color"] = "green"
+# print(car)
+
+# exe 10
