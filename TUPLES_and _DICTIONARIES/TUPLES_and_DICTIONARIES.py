@@ -20,4 +20,6 @@
 # print(numbers[-3:])
 # print(numbers[::-1])
 
-# exe 4
+# # exe 4-5
+# car = ("tesla",200000,5,"private cars")
+# print(car[0],car[1],car[2],car[3])
