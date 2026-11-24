@@ -71,3 +71,9 @@
 # # exe 13
 # def calculate_discount(price,discount):
 #     print(price-(price*discount))   
+
+# # exe 14
+# def show_range(num1,num2):
+#     for num in range(num1,num2):
+#         print(num)
+# show_range(1,10)    
