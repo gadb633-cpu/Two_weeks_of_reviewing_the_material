@@ -234,3 +234,70 @@
 # if not found:
 #     numbers.append(new_number)
 # print(numbers)
+
+# exe last
+grades = [85, 72, 90, 55, 100, 63, 48, 77]
+while True:
+    print('''
+    ===== Grades Management =====
+
+    1. Show all grades
+    2. Add a grade
+    3. Search for a grade
+    4. Remove a grade
+    5. Show passing grades
+    6. Show failing grades
+    7. Show highest and lowest grade
+    8. Show average grade
+    9. Show first 3 grades
+    10. Show grades in reverse
+    0. Exit
+    ''')
+    choice = input("enter your choice: ")
+    match choice:
+        case "1":
+            print(grades)
+        case "2":
+            grade = int(input("enter new grade: "))
+            grades.append(grade)
+        case "3":
+            grade = int(input("enter search grade: "))
+            indexes = []
+            for g in range(len(grades)):
+                if grades[g] == grade:
+                    indexes.append(grades[g])
+            print(indexes)
+        case "4":
+            grade = int(input("enter grade to remove: "))
+            for g in grades:
+                if g == grade:
+                    grades.remove(grade)
+            print("deleted")
+        case "5":
+            passed = [grade for grade in grades if grade > 60]
+            print(passed)
+        case "6":
+            failed = [grade for grade in grades if grade < 60]
+            print(failed)
+        case "7":
+            highest = grades[0]
+            lowest  = grades[0]
+            for g in grades:
+                if g >highest:
+                    highest = g
+                if g <lowest:
+                    lowest = g
+            print(f"highest: {highest} \nlowest: {lowest}")
+        case "8":
+            sum_grade = 0
+            for g in grades:
+                sum_grade +=g
+            print(sum_grade/len(grades))
+        case "9":
+            print(grades[:3])
+        case "10":
+            print(grades[::-1])
+        case "0":
+            break
+        case _:
+            print("only 0-10!!")
