@@ -9,3 +9,12 @@
 # def show_welcome():
 #     print("welcome!")
 # show_welcome()     
+
+# # exe 3
+# def shaw_menu():
+#     print('''
+# ===== Main Menu =====
+# 1. Start
+# 2. Settings
+# 3. Exit
+# ''')
