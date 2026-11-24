@@ -66,4 +66,8 @@
 # def check_password(password):
 #     if password == "123456":
 #         print("Access Granted")
-#     print("Access Denied")    
+#     print("Access Denied")  
+
+# # exe 13
+# def calculate_discount(price,discount):
+#     print(price-(price*discount))   
