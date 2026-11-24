@@ -137,12 +137,22 @@
 #         break
 # print(students)   
  
-# exe 17
-classroom = {"Class A": ["David", "Moshe", "Dana"],"Class B": ["Noa", "Avi", "Michael"],"Class C": ["Daniel", "Shir", "Yossi"]} 
-classroom["Class B"].append("gad")
-classroom["Class C"].pop(0)
-for c in classroom:
-    print(c)
-    print(classroom[c])
-    print(len(classroom[c]))
-    
+# # exe 17
+# classroom = {"Class A": ["David", "Moshe", "Dana"],"Class B": ["Noa", "Avi", "Michael"],"Class C": ["Daniel", "Shir", "Yossi"]} 
+# classroom["Class B"].append("gad")
+# classroom["Class C"].pop(0)
+# for c in classroom:
+#     print(c)
+#     print(classroom[c])
+#     print(len(classroom[c]))
+
+# # exe 18
+# products = {"Laptop": {"price": 4500,"stock": 10},"Mouse": {"price": 80,"stock": 50},"Keyboard": {"price": 150,"stock": 20}}
+# products["Laptop"]["stock"] = 25
+# products["phone"] = {"price":6500,"stock":57}   
+# for p in products:
+#     print(products[p]["price"])
+#     print(products[p]["stock"])
+#     if products[p]["price"] > 100:
+#         print(f"over 100: {p}")
+
