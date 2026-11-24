@@ -77,4 +77,23 @@
 # # exe 12
 # students = {"David": 80,"Moshe": 87,"Dana": 91,"gad":100,"chaim":95}
 # for s in students:
-#     print(f"Student: {s} | Grade: {students[s]}")
+#     print(f"Student: {s} | Grade: {students[s]}")\
+
+# # exe 13
+# grades = {"David": 90,"Moshe": 75,"Dana": 100,"Noa": 55,"Avi": 82}
+
+# sum_grades = 0
+# highest = "David"
+# count = 0
+# for g in grades:
+#     sum_grades += grades[g]
+#     if grades[g] >80:
+#         print(g)
+#     if grades[g] > grades[highest]:
+#         highest= g
+#     if grades[g] <60:
+#         count +=1
+# print(sum_grades/len(grades))
+# print(f"highest: {highest}")
+# print(f"failed: {count}")
+
