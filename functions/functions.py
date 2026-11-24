@@ -35,3 +35,9 @@
 #     print("**********")
 # for i in range(6):    
 #     show_stars()    
+
+# exe 7
+def greet(name):
+    print("Hello", name)
+greet("David")
+greet("Moshe")
