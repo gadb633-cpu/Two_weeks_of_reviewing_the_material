@@ -55,3 +55,9 @@
 # # exe 10
 # def calculate_average(grade1,grade2,grade3):
 #     print((grade1+grade2+grade3)/3)
+
+# # exe 11
+# def check_even(num):
+#     if num%2==0:
+#         print("even")
+#     print("odd")    
