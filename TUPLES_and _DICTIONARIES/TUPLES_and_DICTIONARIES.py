@@ -62,3 +62,14 @@
 # salaries["David"] = 17000
 # salaries["gad"] = 40000
 # print(salaries)    
+
+# # exe 11
+# products = {"apple": 2.5, "banana": 1.2, "orange": 3.0, "grape": 4.5}
+# name = input("enter name product: ")
+# found = False
+# for p in products:
+#     if name == p:
+#         found = True
+#         print(products[p])
+# if not found:
+#     print("not found!!")
