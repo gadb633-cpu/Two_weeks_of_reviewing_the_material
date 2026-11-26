@@ -84,3 +84,7 @@
 #         print("*"*width,end="")
 #         print()
 # print_rectangle(3,5)
+
+# # exe 16
+# def multiply(num1,num2):
+#     return num1*num2
