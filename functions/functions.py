@@ -92,3 +92,10 @@
 # # exe 17
 # def get_full_name(first_name,last_name):
 #     return first_name+" "+last_name
+
+# # exe 18
+# def get_max(num1,num2):
+#     if num1 > num2:
+#         return num1
+#     else:
+#         return num2
