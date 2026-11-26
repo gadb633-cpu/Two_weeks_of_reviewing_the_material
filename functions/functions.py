@@ -77,3 +77,10 @@
 #     for num in range(num1,num2):
 #         print(num)
 # show_range(1,10)    
+
+# # exe 15
+# def print_rectangle(high,width):
+#     for i in range(high):
+#         print("*"*width,end="")
+#         print()
+# print_rectangle(3,5)
