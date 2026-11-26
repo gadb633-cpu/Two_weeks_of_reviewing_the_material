@@ -133,3 +133,9 @@
 #         result *=num
 #     return result
 # print(calculate_power(4,4))
+
+# # exe 24
+# def print_list(list_items):
+#     for i in list_items:
+#         print(i)
+        
