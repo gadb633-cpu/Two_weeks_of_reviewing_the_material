@@ -109,3 +109,14 @@
 # # exe 20
 # def calculate_tax(price,tax):
 #     return price + (price * tax/100)
+
+# # exe 21
+# def get_grade_status(grade):
+#     if grade >= 90:
+#         return "Excellent "
+#     elif grade >=75:
+#         return "good"
+#     elif grade >=60:
+#         return "Average "
+#     else:
+#         return "Failed "
