@@ -105,3 +105,7 @@
 #     if num >0:
 #         return True
 #     return False
+
+# # exe 20
+# def calculate_tax(price,tax):
+#     return price + (price * tax/100)
