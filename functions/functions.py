@@ -145,3 +145,9 @@
 #     for num in nums:
 #         s+=num
 #     return s   
+
+# # exe 26
+# def get_list_average(nums):
+#     if len(nums) == 0:
+#         raise ZeroDivisionError("you cant to divide by zero!")
+#     return sum(nums)/len(nums)
