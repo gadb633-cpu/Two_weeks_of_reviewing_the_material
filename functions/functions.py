@@ -138,4 +138,10 @@
 # def print_list(list_items):
 #     for i in list_items:
 #         print(i)
-        
+
+# # exe 25
+# def get_list_sum(nums):
+#     s=0
+#     for num in nums:
+#         s+=num
+#     return s   
