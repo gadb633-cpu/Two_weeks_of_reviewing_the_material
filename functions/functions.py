@@ -151,3 +151,10 @@
 #     if len(nums) == 0:
 #         raise ZeroDivisionError("you cant to divide by zero!")
 #     return sum(nums)/len(nums)
+
+# def fibonacci(num):
+#     f = [0,1]
+#     for i in range(num-2):
+#         f.append(f[-2]+f[-1])
+#     print(f)
+# fibonacci(10)    
