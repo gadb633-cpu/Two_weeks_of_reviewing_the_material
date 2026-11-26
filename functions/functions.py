@@ -125,3 +125,11 @@
 # def count_digits(num):
 #     return len(str(num))
 # print(count_digits(1458787555)) 
+
+# # exe 23
+# def calculate_power(num,power):
+#     result = num
+#     for i in range(power-1):
+#         result *=num
+#     return result
+# print(calculate_power(4,4))
