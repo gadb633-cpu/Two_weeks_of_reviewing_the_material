@@ -120,3 +120,8 @@
 #         return "Average "
 #     else:
 #         return "Failed "
+
+# # exe 22
+# def count_digits(num):
+#     return len(str(num))
+# print(count_digits(1458787555)) 
